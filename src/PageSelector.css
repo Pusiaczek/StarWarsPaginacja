@@ -1,0 +1,21 @@
+.page-selector {
+    list-style: none;
+}
+
+.page-selector__item {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px black solid;
+}
+
+.page-selector__item:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.page-selector__item--current {
+    font-weight: 900;
+    background-color:black;
+    color: red;
+}
